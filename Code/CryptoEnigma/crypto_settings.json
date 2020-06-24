@@ -1,0 +1,49 @@
+{
+  "crypto": {
+    "type": "enigma"
+  },
+  "block_mode":
+  {
+    "type": "cbc"
+  },
+  "digital_signature": {
+    "type": "el_gamal"
+  },
+  "key_exchange": {
+    "type" : "diffiehellman"
+  },
+  "enigma": {
+    "key": "DOG",
+    "plug_board": [
+      "ab",
+      "ce",
+	  "wf"
+    ],
+    "reflector": "B",
+    "rotors": {
+      "1": {
+        "type": "I",
+        "ring": "A"
+      },
+      "2": {
+        "type": "II",
+        "ring": "A"
+      },
+      "3": {
+        "type": "III",
+        "ring": "A"
+      }
+    }
+  },
+  "el_gamal": {
+    "hash_function": "sha1"
+  },
+  "cbc": {
+    "key": "asdfsfe"
+  },
+  "diffiehellman": {
+    "crypto": {
+      "type": "caesar"
+    }
+  }
+}
