@@ -1,2 +1,4 @@
 # SecureSocket
-Semester Project / ORT Braude College / Date: 7/2020
+Data Security and Cryptology course project
+ORT Braude College
+Date: 7/2020
